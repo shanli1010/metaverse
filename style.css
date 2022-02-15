@@ -13,11 +13,14 @@ body,html{
 
 h1{
   font-family: 'Helvetica Neue';
+    font-size: 200px;
   color : #FFFFFF
 }
 
 p{
   font-family: 'Helvetica  Neue';
-  font-size: 70px;
+  font-size: 100px;
+  margin: 2px;
+  padding: 2px;
   color : #FFFFFF
 }
