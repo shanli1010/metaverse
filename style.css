@@ -24,3 +24,16 @@ p{
   padding: 2px;
   color : #FFFFFF
 }
+
+.navbar {
+  display: flex;
+  background-color: #00008b;
+  width: 600px;
+  padding: 20pz;
+  margin: 70px;
+  color: #FFFFFF;
+  height: 64px;
+  align-items: center;
+  justify-content: space-around;
+  border: 10px solid blue;
+}
