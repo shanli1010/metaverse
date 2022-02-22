@@ -11,19 +11,34 @@ body{
   width: 50%;
 }
 
-h1{
+
+
+h1 {
   text-align: center;
   font-family: 'Helvetica Neue';
-    font-size: 120px;
+  font-size: 120px;
   color : #FFFFFF
 }
 
-p{
+p {
   text-align: center;
-  font-family: 'Helvetica  Neue';
-  font-size: 50px;
-  padding: 200px;
+  font-family: 'Helvetica Neue';
+  font-size: 30px;
+  padding: 50px;
+  margin: 30px;
   color : #FFFFFF;
+  border: 10px;
+  border-color: #FFFFFF;
+}
+
+p.alignleft{
+  display: flex;
+  text-align: left;
+}
+
+p.alignright{
+  display: flex;
+  text-align: right;
 }
 
 .navbar {
@@ -31,13 +46,13 @@ p{
   background-color: #276681;
   width: 1000px;
   padding: 20px;
-   margin: 150px;
+  margin: 150px;
   color: #FFFFFF;
   height: 64px;
   align-items: center;
   justify-content: space-around;
   border: 10px solid blue;
-  font-family: 'Helvetica  Neue';
+  font-family: 'Helvetica Neue';
 }
 
 .img-container {
