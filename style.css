@@ -20,22 +20,25 @@ h1{
 p{
   font-family: 'Helvetica  Neue';
   font-size: 50px;
-  margin: 100px;
-  padding: 2px;
-  color : #FFFFFF
+  padding: 200px;
+  color : #FFFFFF;
 }
 
 .navbar {
   display: flex;
   background-color: #276681;
-  width: 600px;
+  width: 1000px;
   padding: 20px;
    margin: 150px;
   color: #FFFFFF;
   height: 64px;
   align-items: center;
   justify-content: space-around;
-  border: 10px;
-  border-color: #3B90AF;
+  border: 10px solid blue;
   font-family: 'Helvetica  Neue';
 }
+
+.img-container {
+    text-align: center;
+    display: block;
+  }
